@@ -1,0 +1,2871 @@
+[
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.Costs",
+		"name": "Costs",
+		"pluralName": "Costs",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "Medium",
+				"name": "Medium",
+				"pluralName": "Medium",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "Low",
+				"name": "Low",
+				"pluralName": "Low",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "None",
+				"name": "None",
+				"pluralName": "None",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			},
+			{
+				"persistentName": "High",
+				"name": "High",
+				"pluralName": "High",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 3
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.Interaction",
+		"name": "Interaction",
+		"pluralName": "Interaction",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "manual",
+				"name": "manual",
+				"pluralName": "manual",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "asynchronous",
+				"name": "asynchronous",
+				"pluralName": "asynchronous",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "synchronous",
+				"name": "synchronous",
+				"pluralName": "synchronous",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.Integrity",
+		"name": "Integrity",
+		"pluralName": "Integrity",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "veryhigh",
+				"name": "veryhigh",
+				"pluralName": "veryhigh",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "normal",
+				"name": "normal",
+				"pluralName": "normal",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "high",
+				"name": "high",
+				"pluralName": "high",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.License Cost",
+		"name": "License Cost",
+		"pluralName": "License Cost",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "Medium",
+				"name": "Medium",
+				"pluralName": "Medium",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "Low",
+				"name": "Low",
+				"pluralName": "Low",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "None",
+				"name": "None",
+				"pluralName": "None",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			},
+			{
+				"persistentName": "High",
+				"name": "High",
+				"pluralName": "High",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 3
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.Availability",
+		"name": "Availability",
+		"pluralName": "Availability",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "veryhigh",
+				"name": "veryhigh",
+				"pluralName": "veryhigh",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "normal",
+				"name": "normal",
+				"pluralName": "normal",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "high",
+				"name": "high",
+				"pluralName": "high",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.IT_Responsibility",
+		"name": "IT_Responsibility",
+		"pluralName": "IT_Responsibility",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "Operational_IT",
+				"name": "Operational_IT",
+				"pluralName": "Operational_IT",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "Business_IT",
+				"name": "Business_IT",
+				"pluralName": "Business_IT",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.Division",
+		"name": "Division",
+		"pluralName": "Division",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "Bremen",
+				"name": "Bremen",
+				"pluralName": "Bremen",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "North America",
+				"name": "North America",
+				"pluralName": "North America",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "New York",
+				"name": "New York",
+				"pluralName": "New York",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			},
+			{
+				"persistentName": "Basel",
+				"name": "Basel",
+				"pluralName": "Basel",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 3
+			},
+			{
+				"persistentName": "Munich",
+				"name": "Munich",
+				"pluralName": "Munich",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 4
+			},
+			{
+				"persistentName": "Bern",
+				"name": "Bern",
+				"pluralName": "Bern",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 5
+			},
+			{
+				"persistentName": "Stuttgart",
+				"name": "Stuttgart",
+				"pluralName": "Stuttgart",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 6
+			},
+			{
+				"persistentName": "Africa",
+				"name": "Africa",
+				"pluralName": "Africa",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 7
+			},
+			{
+				"persistentName": "Europe",
+				"name": "Europe",
+				"pluralName": "Europe",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 8
+			},
+			{
+				"persistentName": "Asia",
+				"name": "Asia",
+				"pluralName": "Asia",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 9
+			},
+			{
+				"persistentName": "IT Provider",
+				"name": "IT Provider",
+				"pluralName": "IT Provider",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 10
+			},
+			{
+				"persistentName": "Zurich",
+				"name": "Zurich",
+				"pluralName": "Zurich",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 11
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.Confidential",
+		"name": "Confidential",
+		"pluralName": "Confidential",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "veryhigh",
+				"name": "veryhigh",
+				"pluralName": "veryhigh",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "normal",
+				"name": "normal",
+				"pluralName": "normal",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "high",
+				"name": "high",
+				"pluralName": "high",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.StateOfHealth",
+		"name": "StateOfHealth",
+		"pluralName": "StateOfHealth",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "good",
+				"name": "good",
+				"pluralName": "good",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "bad",
+				"name": "bad",
+				"pluralName": "bad",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "medium",
+				"name": "medium",
+				"pluralName": "medium",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.Location",
+		"name": "Location",
+		"pluralName": "Location",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "North America",
+				"name": "North America",
+				"pluralName": "North America",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "Switzerland : Zurich",
+				"name": "Switzerland : Zurich",
+				"pluralName": "Switzerland : Zurich",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "Switzerland : Bern",
+				"name": "Switzerland : Bern",
+				"pluralName": "Switzerland : Bern",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			},
+			{
+				"persistentName": "Africa",
+				"name": "Africa",
+				"pluralName": "Africa",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 3
+			},
+			{
+				"persistentName": "Switzerland : Basel",
+				"name": "Switzerland : Basel",
+				"pluralName": "Switzerland : Basel",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 4
+			},
+			{
+				"persistentName": "Europe",
+				"name": "Europe",
+				"pluralName": "Europe",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 5
+			},
+			{
+				"persistentName": "Asia",
+				"name": "Asia",
+				"pluralName": "Asia",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 6
+			},
+			{
+				"persistentName": "Germany : Stuttgart",
+				"name": "Germany : Stuttgart",
+				"pluralName": "Germany : Stuttgart",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 7
+			},
+			{
+				"persistentName": "Germany : Munich",
+				"name": "Germany : Munich",
+				"pluralName": "Germany : Munich",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 8
+			},
+			{
+				"persistentName": "Germany : Bremen",
+				"name": "Germany : Bremen",
+				"pluralName": "Germany : Bremen",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 9
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.IntendedUse",
+		"name": "IntendedUse",
+		"pluralName": "IntendedUse",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "Browser",
+				"name": "Browser",
+				"pluralName": "Browser",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "Software Framework",
+				"name": "Software Framework",
+				"pluralName": "Software Framework",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "BI",
+				"name": "BI",
+				"pluralName": "BI",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			},
+			{
+				"persistentName": "Document Store",
+				"name": "Document Store",
+				"pluralName": "Document Store",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 3
+			},
+			{
+				"persistentName": "OS",
+				"name": "OS",
+				"pluralName": "OS",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 4
+			},
+			{
+				"persistentName": "Kernel",
+				"name": "Kernel",
+				"pluralName": "Kernel",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 5
+			},
+			{
+				"persistentName": "Mail",
+				"name": "Mail",
+				"pluralName": "Mail",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 6
+			},
+			{
+				"persistentName": "SDK",
+				"name": "SDK",
+				"pluralName": "SDK",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 7
+			},
+			{
+				"persistentName": "CRM",
+				"name": "CRM",
+				"pluralName": "CRM",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 8
+			},
+			{
+				"persistentName": "Runtime Environment",
+				"name": "Runtime Environment",
+				"pluralName": "Runtime Environment",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 9
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.attribute.EnumAT.Lifecycle",
+		"name": "Lifecycle",
+		"pluralName": "Lifecycle",
+		"description": "",
+		"literals": [
+			{
+				"persistentName": "Beta",
+				"name": "Beta",
+				"pluralName": "Beta",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "Legacy",
+				"name": "Legacy",
+				"pluralName": "Legacy",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 1
+			},
+			{
+				"persistentName": "Extended Maintenance",
+				"name": "Extended Maintenance",
+				"pluralName": "Extended Maintenance",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 2
+			},
+			{
+				"persistentName": "Implementation",
+				"name": "Implementation",
+				"pluralName": "Implementation",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 3
+			},
+			{
+				"persistentName": "Maintenance",
+				"name": "Maintenance",
+				"pluralName": "Maintenance",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 4
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.InformationSystemRelease$TypeOfStatus",
+		"name": "Status (IS)",
+		"pluralName": "Statuswerte (IS)",
+		"description": "Statuswerte von Informationssystemen",
+		"literals": [
+			{
+				"persistentName": "CURRENT",
+				"name": "Ist",
+				"pluralName": "Ist",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "PLANNED",
+				"name": "Plan",
+				"pluralName": "Plan",
+				"description": "",
+				"color": "rgb(246,223,149)",
+				"index": 1
+			},
+			{
+				"persistentName": "TARGET",
+				"name": "Soll",
+				"pluralName": "Soll",
+				"description": "",
+				"color": "rgb(215,157,173)",
+				"index": 2
+			},
+			{
+				"persistentName": "INACTIVE",
+				"name": "Außer Betrieb",
+				"pluralName": "Außer Betrieb",
+				"description": "",
+				"color": "rgb(136,174,217)",
+				"index": 3
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.Direction",
+		"name": "Richtung",
+		"pluralName": "Richtungen",
+		"description": "Aufruf- oder Transport-Richtung von Schnittstellen und Informationsflüssen",
+		"literals": [
+			{
+				"persistentName": "NO_DIRECTION",
+				"name": "NO_DIRECTION",
+				"pluralName": "NO_DIRECTION",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "FIRST_TO_SECOND",
+				"name": "FIRST_TO_SECOND",
+				"pluralName": "FIRST_TO_SECOND",
+				"description": "",
+				"color": "rgb(246,223,149)",
+				"index": 1
+			},
+			{
+				"persistentName": "SECOND_TO_FIRST",
+				"name": "SECOND_TO_FIRST",
+				"pluralName": "SECOND_TO_FIRST",
+				"description": "",
+				"color": "rgb(215,157,173)",
+				"index": 2
+			},
+			{
+				"persistentName": "BOTH_DIRECTIONS",
+				"name": "BOTH_DIRECTIONS",
+				"pluralName": "BOTH_DIRECTIONS",
+				"description": "",
+				"color": "rgb(136,174,217)",
+				"index": 3
+			}
+		]
+	},
+	{
+		"type": "EnumerationExpression",
+		"persistentName": "de.iteratec.iteraplan.model.TechnicalComponentRelease$TypeOfStatus",
+		"name": "Status (TB)",
+		"pluralName": "Statuswerte (TB)",
+		"description": "Statuswerte von Technischen Bausteinen",
+		"literals": [
+			{
+				"persistentName": "CURRENT",
+				"name": "Ist",
+				"pluralName": "Ist",
+				"description": "",
+				"color": "rgb(175,206,168)",
+				"index": 0
+			},
+			{
+				"persistentName": "PLANNED",
+				"name": "Plan",
+				"pluralName": "Plan",
+				"description": "",
+				"color": "rgb(246,223,149)",
+				"index": 1
+			},
+			{
+				"persistentName": "TARGET",
+				"name": "Soll",
+				"pluralName": "Soll",
+				"description": "",
+				"color": "rgb(215,157,173)",
+				"index": 2
+			},
+			{
+				"persistentName": "INACTIVE",
+				"name": "Außer Betrieb",
+				"pluralName": "Außer Betrieb",
+				"description": "",
+				"color": "rgb(136,174,217)",
+				"index": 3
+			},
+			{
+				"persistentName": "UNDEFINED",
+				"name": "Nicht vergeben",
+				"pluralName": "Nicht vergeben",
+				"description": "",
+				"color": "rgb(172,161,200)",
+				"index": 4
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "BusinessDomain",
+		"name": "Fachliche Domäne",
+		"pluralName": "Fachliche Domänen",
+		"description": "Fachliche Domänen sind fachliche Einteilungen. Sie strukturieren die fachliche Bebauung. Die fachliche Bebauung beschreibt die wesentlichen fachlichen Einheiten eines Unternehmens, die maßgeblich das Geschäft bestimmen. Die wesentlichen Elemente der fachlichen Bebauung sind Geschäftsprozesse, fachliche Funktionen, Produkte, Geschäftseinheiten und Geschäftsdaten.",
+		"abbreviation": "FD",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessProcess",
+				"persistentName": "businessProcesses",
+				"name": "Enthaltener Geschäftsprozess",
+				"pluralName": "Enthaltene Geschäftsprozesse",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessObject",
+				"persistentName": "businessObjects",
+				"name": "Enthaltenes Geschäftsobjekt",
+				"pluralName": "Enthaltene Geschäftsobjekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessDomain",
+				"persistentName": "children",
+				"name": "Untergeordnete Fachliche Domäne",
+				"pluralName": "Untergeordnete Fachliche Domänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessDomain",
+				"persistentName": "parent",
+				"name": "Übergeordnete Fachliche Domäne",
+				"pluralName": "Übergeordnete Fachliche Domänen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessFunction",
+				"persistentName": "businessFunctions",
+				"name": "Enthaltene Fachliche Funktion",
+				"pluralName": "Enthaltene Fachliche Funktionen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessUnit",
+				"persistentName": "businessUnits",
+				"name": "Enthaltene Geschäftseinheit",
+				"pluralName": "Enthaltene Geschäftseinheiten",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Product",
+				"persistentName": "products",
+				"name": "Enthaltenes Produkt",
+				"pluralName": "Enthaltene Produkte",
+				"mandatory": false,
+				"multiple": true
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "BusinessProcess",
+		"name": "Geschäftsprozess",
+		"pluralName": "Geschäftsprozesse",
+		"description": "Ein Geschäftsprozess ist eine Folge von logisch zusammenhängenden Aktivitäten, die für das Unternehmen einen Beitrag zur Wertschöpfung leistet, einen definierten Anfang und ein definiertes Ende hat, in der Regel wiederholt durchgeführt wird und sich in der Regel am Kunden orientiert.",
+		"abbreviation": "GP",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessDomain",
+				"persistentName": "businessDomains",
+				"name": "Zugewiesene Fachliche Domäne",
+				"pluralName": "Zugewiesene Fachliche Domänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Project",
+				"persistentName": "projects",
+				"name": "Betreffendes Projekt",
+				"pluralName": "Betreffende Projekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessMapping",
+				"persistentName": "businessMappings",
+				"name": "Fachliche Zuordnung",
+				"pluralName": "Fachliche Zuordnungen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessProcess",
+				"persistentName": "children",
+				"name": "Untergeordneter Geschäftsprozess",
+				"pluralName": "Untergeordnete Geschäftsprozesse",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessProcess",
+				"persistentName": "parent",
+				"name": "Übergeordneter Geschäftsprozess",
+				"pluralName": "Übergeordnete Geschäftsprozesse",
+				"mandatory": false,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "BusinessUnit",
+		"name": "Geschäftseinheit",
+		"pluralName": "Geschäftseinheiten",
+		"description": "Eine Organisationsstruktur ist die Art, wie ein Unternehmen strukturiert ist. Geschäftseinheiten sind die strukturellen Einheiten der Organisationsstruktur, wie z.B. Abteilungen des Unternehmens, oder aber die Standorte oder Werke des Unternehmens.",
+		"abbreviation": "BU",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessDomain",
+				"persistentName": "businessDomains",
+				"name": "Zugewiesene Fachliche Domäne",
+				"pluralName": "Zugewiesene Fachliche Domänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessUnit",
+				"persistentName": "children",
+				"name": "Untergeordnete Geschäftseinheit",
+				"pluralName": "Untergeordnete Geschäftseinheiten",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessUnit",
+				"persistentName": "parent",
+				"name": "Übergeordnete Geschäftseinheit",
+				"pluralName": "Übergeordnete Geschäftseinheiten",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "Project",
+				"persistentName": "projects",
+				"name": "Betreffendes Projekt",
+				"pluralName": "Betreffende Projekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessMapping",
+				"persistentName": "businessMappings",
+				"name": "Fachliche Zuordnung",
+				"pluralName": "Fachliche Zuordnungen",
+				"mandatory": false,
+				"multiple": true
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "Product",
+		"name": "Produkt",
+		"pluralName": "Produkte",
+		"description": "Ein Produkt ist ein Ergebnis des Leistungsprozesses eines Unternehmens, z.B. eine Ware wie beispielsweise ein Auto oder aber ein Rechner.",
+		"abbreviation": "PROD",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessDomain",
+				"persistentName": "businessDomains",
+				"name": "Zugewiesene Fachliche Domäne",
+				"pluralName": "Zugewiesene Fachliche Domänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessMapping",
+				"persistentName": "businessMappings",
+				"name": "Fachliche Zuordnung",
+				"pluralName": "Fachliche Zuordnungen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Project",
+				"persistentName": "projects",
+				"name": "Betreffendes Projekt",
+				"pluralName": "Betreffende Projekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Product",
+				"persistentName": "children",
+				"name": "Untergeordnetes Produkt",
+				"pluralName": "Untergeordnete Produkte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Product",
+				"persistentName": "parent",
+				"name": "Übergeordnetes Produkt",
+				"pluralName": "Übergeordnete Produkte",
+				"mandatory": false,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "BusinessFunction",
+		"name": "Fachliche Funktion",
+		"pluralName": "Fachliche Funktionen",
+		"description": "Eine fachliche Funktion ist eine in sich abgeschlossene und zusammenhängende fachliche Tätigkeit, z.B. Kunde anlegen oder Produktkonfiguration verändern.",
+		"abbreviation": "FF",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessDomain",
+				"persistentName": "businessDomains",
+				"name": "Zugewiesene Fachliche Domäne",
+				"pluralName": "Zugewiesene Fachliche Domänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessFunction",
+				"persistentName": "children",
+				"name": "Untergeordnete Fachliche Funktion",
+				"pluralName": "Untergeordnete Fachliche Funktionen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessFunction",
+				"persistentName": "parent",
+				"name": "Übergeordnete Fachliche Funktion",
+				"pluralName": "Übergeordnete Fachliche Funktionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessObject",
+				"persistentName": "businessObjects",
+				"name": "Zugewiesenes Geschäftsobjekt",
+				"pluralName": "Zugewiesene Geschäftsobjekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Project",
+				"persistentName": "projects",
+				"name": "Betreffendes Projekt",
+				"pluralName": "Betreffende Projekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ITService",
+				"persistentName": "itServices",
+				"name": "Basierend auf IT-Service",
+				"pluralName": "Basierend auf IT-Services",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystems",
+				"name": "Unterstützendes Informationssystem",
+				"pluralName": "Unterstützende Informationssysteme",
+				"mandatory": false,
+				"multiple": true
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "BusinessObject",
+		"name": "Geschäftsobjekt",
+		"pluralName": "Geschäftsobjekte",
+		"description": "Ein Geschäftsobjekt ist ein abgestimmter, fachlicher Begriff für abstrakte oder konkrete Objekte, die im Unternehmen von Relevanz sind, d.h. in engem Zusammenhang zur Geschäftstätigkeit des Unternehmens stehen. Beispiele für Geschäftsobjekte sind Kunde, Produkt oder Auftrag.",
+		"abbreviation": "GO",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessDomain",
+				"persistentName": "businessDomains",
+				"name": "Zugewiesene Fachliche Domäne",
+				"pluralName": "Zugewiesene Fachliche Domänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessFunction",
+				"persistentName": "businessFunctions",
+				"name": "Benutzende Fachliche Funktion",
+				"pluralName": "Benutzende Fachliche Funktionen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessObject",
+				"persistentName": "children",
+				"name": "Untergeordnetes Geschäftsobjekt",
+				"pluralName": "Untergeordnete Geschäftsobjekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessObject",
+				"persistentName": "parent",
+				"name": "Übergeordnetes Geschäftsobjekt",
+				"pluralName": "Übergeordnete Geschäftsobjekte",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InformationFlow",
+				"persistentName": "informationFlows",
+				"name": "Transportierender Informationsfluss",
+				"pluralName": "Transportierende Informationsflüsse",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessObject",
+				"persistentName": "generalisation",
+				"name": "Spezialisiertes Geschäftsobjekt",
+				"pluralName": "Spezialisierte Geschäftsobjekte",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessObject",
+				"persistentName": "specialisations",
+				"name": "Spezialisierendes Geschäftsobjekt",
+				"pluralName": "Spezialisierende Geschäftsobjekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Isr2BoAssociation",
+				"persistentName": "informationSystemReleaseAssociations",
+				"name": "Benutzendes Informationssystem",
+				"pluralName": "Benutzende Informationssysteme",
+				"mandatory": false,
+				"multiple": true
+			}
+		]
+	},
+	{
+		"type": "RelationshipTypeExpression",
+		"persistentName": "BusinessMapping",
+		"name": "Fachliche Zuordnung",
+		"pluralName": "Fachliche Zuordnungen",
+		"description": "Beziehung zwischen Informationssystemen/Geschäftsprozessen/Geschäftseinheiten/Produkten",
+		"abbreviation": "BM",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessProcess",
+				"persistentName": "businessProcess",
+				"name": "Verbundener Geschäftsprozess",
+				"pluralName": "Verbundene Geschäftsprozesse",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessUnit",
+				"persistentName": "businessUnit",
+				"name": "Verbundene Geschäftseinheit",
+				"pluralName": "Verbundene Geschäftseinheiten",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "Product",
+				"persistentName": "product",
+				"name": "Verbundenes Produkt",
+				"pluralName": "Verbundene Produkte",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystemRelease",
+				"name": "Verbundene Informationssystem",
+				"pluralName": "Verbundene Informationssysteme",
+				"mandatory": true,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "InformationSystemDomain",
+		"name": "Informationssystem-Domäne",
+		"pluralName": "Informationssystem-Domänen",
+		"description": "Eine Informationssystemdomäne fasst nach einem oder mehrere Kriterien verschiedene Informationssysteme zusammen. Informationssystemdomänen werden häufig verwendet, um einerseits die Applikationslandschaft und andererseits die Verantwortlichkeiten für die Bebauungsplanung aufzuteilen.",
+		"abbreviation": "ISD",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InformationSystemDomain",
+				"persistentName": "children",
+				"name": "Untergeordnete Informationssystem-Domäne",
+				"pluralName": "Untergeordnete Informationssystem-Domänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystemDomain",
+				"persistentName": "parent",
+				"name": "Übergeordnete Informationssystem-Domäne",
+				"pluralName": "Übergeordnete Informationssystem-Domänen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystemReleases",
+				"name": "Enthaltenes Informationssystem",
+				"pluralName": "Enthaltene Informationssysteme",
+				"mandatory": false,
+				"multiple": true
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "InformationSystem",
+		"name": "Informationssystem",
+		"pluralName": "Informationssysteme",
+		"description": "Ein Informationssystem ist eine Software bzw. ein Software-Paket für zusammengehörige fachliche Funktionen, die/das sich logisch und technisch abgrenzen lässt und durch IT ganz oder überwiegend unterstützt wird.",
+		"abbreviation": "IS",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "duration",
+				"persistentName": "runtimePeriod",
+				"name": "Produktivzeitraum",
+				"pluralName": "Produktivzeiträume",
+				"description": "Der Zeitraum, in dem das System produktiv ist",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.InformationSystemRelease$TypeOfStatus",
+				"persistentName": "typeOfStatus",
+				"name": "Status (IS)",
+				"pluralName": "Statuswerte (IS)",
+				"description": "Statuswerte von Informationssystemen",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "BusinessFunction",
+				"persistentName": "businessFunctions",
+				"name": "Unterstützte Fachliche Funktion",
+				"pluralName": "Unterstützte Fachliche Funktionen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessMapping",
+				"persistentName": "businessMappings",
+				"name": "Fachliche Zuordnung",
+				"pluralName": "Fachliche Zuordnungen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystemDomain",
+				"persistentName": "informationSystemDomains",
+				"name": "Zugewiesene Informationssystem-Domäne",
+				"pluralName": "Zugewiesene Informationssystem-Domänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "TechnicalComponent",
+				"persistentName": "technicalComponentReleases",
+				"name": "Basierend auf Technischem Baustein",
+				"pluralName": "Basierend auf Technischen Bausteinen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Isr2IeAssociation",
+				"persistentName": "infrastructureElementAssociations",
+				"name": "Beziehung zu Infrastrukturelement",
+				"pluralName": "Beziehungen zu Infrastrukturelementen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationFlow",
+				"persistentName": "informationFlows1",
+				"name": "Verbundener Informationsfluss 1",
+				"pluralName": "Verbundene Informationsflüsse 1",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Project",
+				"persistentName": "projects",
+				"name": "Betreffendes Projekt",
+				"pluralName": "Betreffende Projekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Isr2BoAssociation",
+				"persistentName": "businessObjectAssociations",
+				"name": "Beziehung zu Geschäftsobjekt",
+				"pluralName": "Beziehungen zu Geschäftsobjekten",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ITService",
+				"persistentName": "itServices",
+				"name": "Unterstützter IT-Service",
+				"pluralName": "Unterstützte IT-Services",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "children",
+				"name": "Teil-Informationssystem",
+				"pluralName": "Teil-Informationssysteme",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "parent",
+				"name": "Übergeordnetes Informationssystem",
+				"pluralName": "Übergeordnete Informationssysteme",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InformationFlow",
+				"persistentName": "informationFlows2",
+				"name": "Verbundener Informationsfluss 2",
+				"pluralName": "Verbundene Informationsflüsse 2",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "predecessors",
+				"name": "Vorgänger",
+				"pluralName": "Vorgänger",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "successors",
+				"name": "Nachfolger",
+				"pluralName": "Nachfolger",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "baseComponents",
+				"name": "Benutztes Informationssystem",
+				"pluralName": "Benutzte Informationssysteme",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "parentComponents",
+				"name": "Benutzendes Informationssystem",
+				"pluralName": "Benutzende Informationssysteme",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.Integrity",
+				"persistentName": "Integrity",
+				"name": "Integrity",
+				"pluralName": "Integrity",
+				"description": "",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.Availability",
+				"persistentName": "Availability",
+				"name": "Availability",
+				"pluralName": "Availability",
+				"description": "",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.IT_Responsibility",
+				"persistentName": "IT_Responsibility",
+				"name": "IT_Responsibility",
+				"pluralName": "IT_Responsibility",
+				"description": "",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.Division",
+				"persistentName": "Division",
+				"name": "Division",
+				"pluralName": "Division",
+				"description": "",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.Confidential",
+				"persistentName": "Confidential",
+				"name": "Confidential",
+				"pluralName": "Confidential",
+				"description": "",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.IntendedUse",
+				"persistentName": "IntendedUse",
+				"name": "IntendedUse",
+				"pluralName": "IntendedUse",
+				"description": "",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.Lifecycle",
+				"persistentName": "Lifecycle",
+				"name": "Lifecycle",
+				"pluralName": "Lifecycle",
+				"description": "",
+				"mandatory": true,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "InformationSystemInterface",
+		"name": "Schnittstelle",
+		"pluralName": "Schnittstellen",
+		"description": "Eine Schnittstelle definiert eine ggf. gerichtete Abhängigkeit zwischen zwei Informationssystemen. Hierbei kann zwischen Informationsfluss und Kontrollfluss unterschieden werden. Der Begriff \u0027Schnittstelle\u0027 wird im Kontext des IT-Bebauungsmanagements im Sinn von \u0027Informationsfluss\u0027 zwischen Informationssystemen gebraucht.",
+		"abbreviation": "SS",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.Direction",
+				"persistentName": "interfaceDirection",
+				"name": "Schnittstellen-Richtung",
+				"pluralName": "Die Aufruf- oder Transport-Richtung für die gesamte Schnittstelle",
+				"description": "",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "TechnicalComponent",
+				"persistentName": "technicalComponentReleases",
+				"name": "Realisierender Technischer Baustein",
+				"pluralName": "Realisierende Technische Bausteine",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationFlow",
+				"persistentName": "informationFlows",
+				"name": "Informationsfluss",
+				"pluralName": "Informationsflüsse",
+				"mandatory": true,
+				"multiple": true
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.Interaction",
+				"persistentName": "Interaction",
+				"name": "Interaction",
+				"pluralName": "Interaction",
+				"description": "",
+				"mandatory": false,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "ITService",
+		"name": "IT Service",
+		"pluralName": "IT Services",
+		"description": "An IT Service is a service provision of IT to its users to perform its tasks (Business Functions). The IT Service is usually a bundling of services and offers of the IT (information systems, technical devices, infrastructure) and is described by an agreement.",
+		"abbreviation": "ITS",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessFunction",
+				"persistentName": "businessFunctions",
+				"name": "Supported Business Function",
+				"pluralName": "Supported Business Functions",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystemReleases",
+				"name": "Based on Information System",
+				"pluralName": "Based on Information Systems",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ITService",
+				"persistentName": "baseComponents",
+				"name": "Used IT Service",
+				"pluralName": "Used IT Services",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ITService",
+				"persistentName": "parentComponents",
+				"name": "Using IT Service",
+				"pluralName": "Using IT Services",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "TechnicalComponent",
+				"persistentName": "technicalComponentReleases",
+				"name": "Based on Technical Component",
+				"pluralName": "Based on Technical Components",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InfrastructureElement",
+				"persistentName": "infrastructureElements",
+				"name": "Based on Infrastructure Element",
+				"pluralName": "Based on Infrastructure Elements",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ITService",
+				"persistentName": "children",
+				"name": "Subordinate IT Service",
+				"pluralName": "Subordinate IT Services",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ITService",
+				"persistentName": "parent",
+				"name": "Superordinate IT Service",
+				"pluralName": "Superordinate IT Services",
+				"mandatory": false,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "RelationshipTypeExpression",
+		"persistentName": "InformationFlow",
+		"name": "Informationsfluss",
+		"pluralName": "Informationsflüsse",
+		"description": "Ein Informationsfluss repräsentiert den Transport eines Geschäftsobjekts zwischen zwei Informationssystemen, realisiert durch eine Schnittstelle.",
+		"abbreviation": "IFl",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.Direction",
+				"persistentName": "direction",
+				"name": "Richtung",
+				"pluralName": "Richtungen",
+				"description": "Die Richtung, in welche Geschäftsobjekte transportiert werden",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "iteraplan_InformationSystemInterfaceID",
+				"name": "Schnittstellen-ID",
+				"pluralName": "Schnittstellen-IDs",
+				"description": "Die iteraplan-ID der zugewiesenen Schnittstelle",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessObject",
+				"persistentName": "businessObject",
+				"name": "Transportiertes Geschäftsobjekt",
+				"pluralName": "Transportierte Geschäftsobjekte",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystemRelease1",
+				"name": "Verbundenes Informationssystem 1",
+				"pluralName": "Verbundene Informationssysteme 1",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystemRelease2",
+				"name": "Verbundenes Informationssystem 2",
+				"pluralName": "Verbundene Informationssysteme 2",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InformationSystemInterface",
+				"persistentName": "informationSystemInterface",
+				"name": "Zugewiesene Schnittstelle",
+				"pluralName": "Zugewiesene Schnittstellen",
+				"mandatory": false,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "RelationshipTypeExpression",
+		"persistentName": "Isr2IeAssociation",
+		"name": "Beziehung IS-IE",
+		"pluralName": "Beziehungen IS-IE",
+		"description": "Beziehungen zwischen Informationssystemen und Infrastrukturelementen",
+		"abbreviation": "IS-IE",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystemRelease",
+				"name": "Enthaltenes Informationssystem",
+				"pluralName": "Enthaltene Informationssysteme",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "InfrastructureElement",
+				"persistentName": "infrastructureElement",
+				"name": "Laufend auf Infrastrukturelement",
+				"pluralName": "Laufend auf Infrastrukturelementen",
+				"mandatory": true,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "RelationshipTypeExpression",
+		"persistentName": "Isr2BoAssociation",
+		"name": "Beziehung IS-GO",
+		"pluralName": "Beziehungen IS-GO",
+		"description": "Beziehungen zwischen Informationssystemen und Geschäftsobjekten",
+		"abbreviation": "IS-GO",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessObject",
+				"persistentName": "businessObject",
+				"name": "Zugewiesenes Geschäftsobjekt",
+				"pluralName": "Zugewiesene Geschäftsobjekte",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystemRelease",
+				"name": "Benutzendes Informationssystem",
+				"pluralName": "Benutzende Informationssysteme",
+				"mandatory": true,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "ArchitecturalDomain",
+		"name": "Architekturdomäne",
+		"pluralName": "Architekturdomänen",
+		"description": "Architekturdomänen sind die Strukturierung des Blueprints, des Standardisierungskatalogs für die technische Bebauung.",
+		"abbreviation": "AD",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "TechnicalComponent",
+				"persistentName": "technicalComponentReleases",
+				"name": "Enthaltener Technischer Baustein",
+				"pluralName": "Enthaltene Technische Bausteine",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ArchitecturalDomain",
+				"persistentName": "children",
+				"name": "Untergeordnete Architekturdomäne",
+				"pluralName": "Untergeordnete Architekturdomänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ArchitecturalDomain",
+				"persistentName": "parent",
+				"name": "Übergeordnete Architekturdomäne",
+				"pluralName": "Übergeordnete Architekturdomänen",
+				"mandatory": false,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "TechnicalComponent",
+		"name": "Technischer Baustein",
+		"pluralName": "Technische Bausteine",
+		"description": "Information zur technischen Realisierung von Informationssystemen oder Schnittstellen. Die Standardisierung erfolgt über das IT-Architekturmanagement. Ergebnis ist ein Katalog der standardisierten technischen Bausteine; auch Blueprint genannt. Neben den standardisierten technischen Bausteinen können im Rahmen der Dokumentation der Ist-Situation auch nicht-standardisierte technische Bausteine zu verwalten sein.",
+		"abbreviation": "TB",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "boolean",
+				"persistentName": "availableForInterfaces",
+				"name": "Verfügbar für Schnittstellen",
+				"pluralName": "Verfügbar für Schnittstellen",
+				"description": "Verfügbarkeit als technische Grundlage für Schnittstellen",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "duration",
+				"persistentName": "runtimePeriod",
+				"name": "Produktivzeitraum",
+				"pluralName": "Produktivzeiträume",
+				"description": "Der Zeitraum, in dem das System produktiv ist",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.TechnicalComponentRelease$TypeOfStatus",
+				"persistentName": "typeOfStatus",
+				"name": "Status (TB)",
+				"pluralName": "Statuswerte (TB)",
+				"description": "Statuswerte Technischer Bausteine",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystemReleases",
+				"name": "Basis des Informationssystems",
+				"pluralName": "Basis der Informationssysteme",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystemInterface",
+				"persistentName": "informationSystemInterfaces",
+				"name": "Basis der Schnittstelle",
+				"pluralName": "Basis der Schnittstellen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ITService",
+				"persistentName": "itServices",
+				"name": "Unterstützter IT-Service",
+				"pluralName": "Unterstützte IT-Services",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "ArchitecturalDomain",
+				"persistentName": "architecturalDomains",
+				"name": "Zugewiesene Architekturdomäne",
+				"pluralName": "Zugewiesene Architekturdomänen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "TechnicalComponent",
+				"persistentName": "predecessors",
+				"name": "Vorgänger",
+				"pluralName": "Vorgänger",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "TechnicalComponent",
+				"persistentName": "successors",
+				"name": "Nachfolger",
+				"pluralName": "Nachfolger",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "TechnicalComponent",
+				"persistentName": "baseComponents",
+				"name": "Benutzter Technischer Baustein",
+				"pluralName": "Benutzte Technische Bausteine",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "TechnicalComponent",
+				"persistentName": "parentComponents",
+				"name": "Benutzender Technischer Baustein",
+				"pluralName": "Benutzende Technische Bausteine",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Tcr2IeAssociation",
+				"persistentName": "infrastructureElementAssociations",
+				"name": "Beziehung zu Infrastrukturelement",
+				"pluralName": "Beziehungen zu Infrastrukturelementen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.License Cost",
+				"persistentName": "License Cost",
+				"name": "License Cost",
+				"pluralName": "License Cost",
+				"description": "",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.IT_Responsibility",
+				"persistentName": "IT_Responsibility",
+				"name": "IT_Responsibility",
+				"pluralName": "IT_Responsibility",
+				"description": "",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.StateOfHealth",
+				"persistentName": "StateOfHealth",
+				"name": "StateOfHealth",
+				"pluralName": "StateOfHealth",
+				"description": "",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.IntendedUse",
+				"persistentName": "IntendedUse",
+				"name": "IntendedUse",
+				"pluralName": "IntendedUse",
+				"description": "",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.Lifecycle",
+				"persistentName": "Lifecycle",
+				"name": "Lifecycle",
+				"pluralName": "Lifecycle",
+				"description": "",
+				"mandatory": true,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "RelationshipTypeExpression",
+		"persistentName": "Tcr2IeAssociation",
+		"name": "Beziehung TB-IE",
+		"pluralName": "Beziehungen TB-IE",
+		"description": "Beziehungen zwischen Technischen Bausteinen und Infrastrukturelementen",
+		"abbreviation": "TB-IE",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "TechnicalComponent",
+				"persistentName": "technicalComponentRelease",
+				"name": "Enthaltener Technischer Baustein",
+				"pluralName": "Enthaltene Technische Bausteine",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "InfrastructureElement",
+				"persistentName": "infrastructureElement",
+				"name": "Laufend auf Infrastrukturelement",
+				"pluralName": "Laufend auf Infrastrukturelementen",
+				"mandatory": true,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "InfrastructureElement",
+		"name": "Infrastrukturelement",
+		"pluralName": "Infrastrukturelemente",
+		"description": "Die Infrastrukturelemente beinhalten die logischen Hardware- und Netzwerk-Einheiten, auf denen Informationssysteme betrieben werden. Die Infrastrukturelemente werden im Allgemeinen entweder auf grober logischer Ebene erfasst oder aber von einer CMDB importiert. In einer CMDB werden alle gesicherten und aktuellen Informationen über die Configuration Items der IT-Infrastruktur (Applikationen, Clients, Netzwerk, Server, Storage) und deren Beziehung zueinander, sowie die Basisdaten zur Unterstützung der Service Management Prozesse bereitgestellt.",
+		"abbreviation": "IE",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "ITService",
+				"persistentName": "itServices",
+				"name": "Unterstützter IT-Service",
+				"pluralName": "Unterstützte IT-Services",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Isr2IeAssociation",
+				"persistentName": "informationSystemReleaseAssociations",
+				"name": "Beziehung zu Informationssystem",
+				"pluralName": "Beziehungen zu Informationssystemen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Tcr2IeAssociation",
+				"persistentName": "technicalComponentReleaseAssociations",
+				"name": "Beziehung zu Technischer Baustein",
+				"pluralName": "Beziehungen zu Technischen Bausteinen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InfrastructureElement",
+				"persistentName": "children",
+				"name": "Untergeordnetes Infrastrukturelement",
+				"pluralName": "Untergeordnete Infrastrukturelemente",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InfrastructureElement",
+				"persistentName": "parent",
+				"name": "Übergeordnetes Infrastrukturelement",
+				"pluralName": "Übergeordnete Infrastrukturelemente",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "InfrastructureElement",
+				"persistentName": "baseComponents",
+				"name": "Benutztes Infrastrukturelement",
+				"pluralName": "Benutzte Infrastrukturelemente",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InfrastructureElement",
+				"persistentName": "parentComponents",
+				"name": "Benutzendes Infrastrukturelement",
+				"pluralName": "Benutzende Infrastrukturelemente",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.Costs",
+				"persistentName": "Costs",
+				"name": "Costs",
+				"pluralName": "Costs",
+				"description": "",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "de.iteratec.iteraplan.model.attribute.EnumAT.Location",
+				"persistentName": "Location",
+				"name": "Location",
+				"pluralName": "Location",
+				"description": "",
+				"mandatory": false,
+				"multiple": false
+			}
+		]
+	},
+	{
+		"type": "SubstantialTypeExpression",
+		"persistentName": "Project",
+		"name": "Projekt",
+		"pluralName": "Projekte",
+		"description": "Ein Projekt ist ein Programm, das im Wesentlichen durch die Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist, z.B. Zielvorgabe, zeitliche, finanzielle, personelle und andere Begrenzungen, Abgrenzung gegenüber anderen Vorhaben und projektspezifische Organisation.",
+		"abbreviation": "PROJ",
+		"features": [
+			{
+				"type": "integer",
+				"persistentName": "id",
+				"name": "Id",
+				"pluralName": "Ids",
+				"description": "Id Attribut",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "lastModificationUser",
+				"name": "Zuletzt verändert von",
+				"pluralName": "Zuletzt verändert von",
+				"description": "Benutzer der zuletzt die Entität geändert hat.",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "richtext",
+				"persistentName": "description",
+				"name": "Beschreibung",
+				"pluralName": "Beschreibungen",
+				"description": "Beschreibung des Typs",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "string",
+				"persistentName": "name",
+				"name": "Name",
+				"pluralName": "Namen",
+				"description": "Name des Typs",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"type": "date_time",
+				"persistentName": "lastModificationTime",
+				"name": "Letzte Änderung",
+				"pluralName": "Zeitpunkte der letzten Ändeurngen",
+				"description": "Zeitpunkt der letzten Äderung",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "integer",
+				"persistentName": "position",
+				"name": "Position",
+				"pluralName": "Positionen",
+				"description": "Hierarchische Positionen",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "duration",
+				"persistentName": "runtimePeriod",
+				"name": "Laufzeit",
+				"pluralName": "Laufzeiten",
+				"description": "Die Laufzeit des Projekts",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "BusinessProcess",
+				"persistentName": "businessProcesses",
+				"name": "Betroffener Geschäftsprozess",
+				"pluralName": "Betroffene Geschäftsprozesse",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessUnit",
+				"persistentName": "businessUnits",
+				"name": "Betroffene Geschäftseinheit",
+				"pluralName": "Betroffene Geschäftseinheiten",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Product",
+				"persistentName": "products",
+				"name": "Betroffenes Produkt",
+				"pluralName": "Betroffene Produkte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "BusinessFunction",
+				"persistentName": "businessFunctions",
+				"name": "Betroffene Fachliche Funktion",
+				"pluralName": "Betroffene Fachliche Funktionen",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "InformationSystem",
+				"persistentName": "informationSystemReleases",
+				"name": "Betroffenes Informationssystem",
+				"pluralName": "Betroffene Informationssysteme",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Project",
+				"persistentName": "children",
+				"name": "Untergeordnetes Projekt",
+				"pluralName": "Untergeordnete Projekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Project",
+				"persistentName": "parent",
+				"name": "Übergeordnetes Projekt",
+				"pluralName": "Übergeordnete Projekte",
+				"mandatory": false,
+				"multiple": false
+			},
+			{
+				"type": "Project",
+				"persistentName": "baseComponents",
+				"name": "In Bezug stehendes Projekt",
+				"pluralName": "In Bezug stehende Projekte",
+				"mandatory": false,
+				"multiple": true
+			},
+			{
+				"type": "Project",
+				"persistentName": "parentComponents",
+				"name": "Bezug herstellendes Projekt",
+				"pluralName": "Bezug herstellende Projekte",
+				"mandatory": false,
+				"multiple": true
+			}
+		]
+	}
+]
