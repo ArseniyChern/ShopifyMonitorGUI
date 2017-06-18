@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/Users/Arseniy/Documents/WorkSpaces/Clients/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2324620472.index
+941005215.index
+2156558752.index
+1957063417.index
+3779532810.index
+3948656914.index
