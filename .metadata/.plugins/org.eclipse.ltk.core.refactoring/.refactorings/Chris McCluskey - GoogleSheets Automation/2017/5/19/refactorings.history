@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Chris McCluskey - GoogleSheets Automation/src/main/resources/client_secret_415668645201-losgo8eapq1kq0rqsqm31hftp96ufggj.apps.googleusercontent.com.json&apos; to &apos;client_secret.json&apos;" description="Rename resource &apos;client_secret_415668645201-losgo8eapq1kq0rqsqm31hftp96ufggj.apps.googleusercontent.com.json&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/client_secret_415668645201-losgo8eapq1kq0rqsqm31hftp96ufggj.apps.googleusercontent.com.json" name="client_secret.json" stamp="1494632041716" updateReferences="true"/>
+</session>

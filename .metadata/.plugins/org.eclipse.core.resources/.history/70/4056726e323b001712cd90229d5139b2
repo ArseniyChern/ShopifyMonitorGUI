@@ -1,0 +1,25 @@
+package processAutomator;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+
+public class Traceroute {
+	public static void printTraceRoute() {
+		System.out.println("called method");
+		try {
+			Process proc = Runtime.getRuntime().exec("traceroute 8.8.8.8");
+			BufferedInputStream stream = new BufferedInputStream(proc.getInputStream());
+			int data = 0;
+			while ((data = stream.read()) > 0) {
+				System.out.println("Hi");
+				System.out.print((char) data);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	public static void main(String[] args) {
+		System.out.println("Hi");
+		printTraceRoute();
+	}
+}

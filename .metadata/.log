@@ -1,0 +1,1860 @@
+!SESSION 2017-06-18 03:05:24.888 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Arseniy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Arseniy/.eclipse_keyring
+
+This is a continuation of log file /Users/Arseniy/Documents/WorkSpaces/Clients/.metadata/.bak_0.log
+Created Time: 2017-06-18 03:05:52.803
+
+!ENTRY org.eclipse.equinox.ds 1 0 2017-06-18 03:05:52.803
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.core.net 1 0 2017-06-18 03:05:53.040
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.ds 1 0 2017-06-18 03:05:59.766
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:06:31.049
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:06:31.078
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:06:59.166
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:06:59.168
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:23.460
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:23.461
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:32.560
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:32.561
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:35.193
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:35.195
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:37.274
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:37.276
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:56.864
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:07:56.865
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:09:09.131
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:09:09.132
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:09:17.936
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:09:17.937
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:10:16.846
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:10:16.850
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.876
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.877
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.878
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.878
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.886
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.887
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.888
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.888
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.889
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.890
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.890
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.891
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.892
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.892
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.892
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.893
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.894
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.894
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.895
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.895
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.896
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.897
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.897
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.898
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.900
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.900
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.901
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.902
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.903
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.903
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.904
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.904
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.905
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.906
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.906
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.907
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.907
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.908
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.908
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.909
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.912
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.913
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.914
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.914
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.915
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.916
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.917
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.917
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.918
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.918
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.919
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.919
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.920
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.920
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.921
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.922
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.922
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.923
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.923
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.924
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.926
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.927
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.928
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.928
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.930
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.931
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.931
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.932
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.933
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.933
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.934
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.934
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.935
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.935
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.936
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.936
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.936
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.937
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.937
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.938
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.938
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.939
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.939
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.940
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.941
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.942
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.943
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.943
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.944
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.944
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.945
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.945
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.946
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.946
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.947
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.948
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.948
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.949
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.949
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.950
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.951
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.951
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.952
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.952
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.953
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.955
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.955
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.957
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.960
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.961
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.962
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.962
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.963
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.963
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.964
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.965
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.965
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.966
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.967
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.968
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.968
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.969
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.969
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.970
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.971
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.971
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.972
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.973
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.973
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.974
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.974
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.974
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.976
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.976
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.977
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.977
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.978
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.978
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.978
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.979
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.979
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.980
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.980
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.980
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.981
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.981
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.981
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.982
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.982
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.983
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.983
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.984
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.984
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.986
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.986
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.987
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.987
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.988
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.988
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.989
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.989
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.990
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:10:41.990
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Chris McCluskey - GoogleSheets Automation' does not exist.
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:10:45.618
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:10:45.619
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:11:06.722
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:11:06.725
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:12:02.946
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:12:02.948
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.669
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.670
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.671
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.672
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.673
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.673
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.674
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.674
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.675
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.675
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.676
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.676
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.677
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.677
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.677
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.678
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.679
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.680
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.680
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.681
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.682
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.682
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.683
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.683
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.683
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.684
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.684
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.684
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.685
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.685
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.686
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.686
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.687
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.687
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.687
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.689
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.689
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.690
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.692
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.693
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.694
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.695
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.695
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.696
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.697
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.698
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.698
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.699
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.699
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.701
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.702
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.702
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.703
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.704
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.704
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.705
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.705
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.705
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.706
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.707
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:13:01.707
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/ExpertsHouse - Google PlacesFX ' does not exist.
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:13:51.222
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:13:51.223
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.egit.core 4 0 2017-06-18 03:15:22.361
+!MESSAGE An exception occurred during push on URI https://github.com/ArseniyChern/Google-Sheets-Automation.git: An internal Exception occurred during push: Source ref HEAD doesn't resolve to any object.
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:190)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Source ref HEAD doesn't resolve to any object.
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:288)
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:192)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:655)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:1344)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-18 03:15:22.367
+!MESSAGE Can't connect to any repository: https://github.com/ArseniyChern/Google-Sheets-Automation.git (An internal Exception occurred during push: Source ref HEAD doesn't resolve to any object.)
+
+!ENTRY org.eclipse.egit.core 4 0 2017-06-18 03:15:50.783
+!MESSAGE An exception occurred during push on URI https://github.com/ArseniyChern/Google-Sheets-Automation.git: An internal Exception occurred during push: Source ref HEAD doesn't resolve to any object.
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:190)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Source ref HEAD doesn't resolve to any object.
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:288)
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:192)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:655)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:1344)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-18 03:15:50.786
+!MESSAGE Can't connect to any repository: https://github.com/ArseniyChern/Google-Sheets-Automation.git (An internal Exception occurred during push: Source ref HEAD doesn't resolve to any object.)
+
+!ENTRY org.eclipse.egit.core 4 0 2017-06-18 03:16:13.004
+!MESSAGE An exception occurred during push on URI https://github.com/ArseniyChern/Google-Sheets-Automation.git: An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:190)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Source ref refs/heads/master doesn't resolve to any object.
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:288)
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:192)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:655)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:1344)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-18 03:16:13.006
+!MESSAGE Can't connect to any repository: https://github.com/ArseniyChern/Google-Sheets-Automation.git (An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.)
+
+!ENTRY org.eclipse.egit.core 4 0 2017-06-18 03:17:14.617
+!MESSAGE An exception occurred during push on URI https://github.com/ArseniyChern/Google-Sheets-Automation.git: An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:190)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Source ref refs/heads/master doesn't resolve to any object.
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:288)
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:192)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:655)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:1344)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-18 03:17:14.620
+!MESSAGE Can't connect to any repository: https://github.com/ArseniyChern/Google-Sheets-Automation.git (An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.)
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:17:48.779
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 03:17:48.781
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.268
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.269
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.269
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.270
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.270
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.270
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.270
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.271
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.271
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 03:18:08.271
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Faizan Sajid - Simple Java Task' does not exist.
+!SESSION 2017-06-18 12:49:03.489 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Arseniy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Arseniy/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 4 567 2017-06-18 12:55:22.280
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-06-18 12:55:22.280
+!MESSAGE Could not read metadata for 'JNJTECH - processAutomator'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'JNJTECH - processAutomator' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-06-18 12:55:22.282
+!MESSAGE The project description file (.project) for 'JNJTECH - processAutomator' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-06-18 12:55:22.282
+!MESSAGE Could not read metadata for 'JSON_to_TXT'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'JSON_to_TXT' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-06-18 12:55:22.283
+!MESSAGE The project description file (.project) for 'JSON_to_TXT' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.net 1 0 2017-06-18 12:55:26.455
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.ds 1 0 2017-06-18 12:55:29.938
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.core.resources 4 567 2017-06-18 12:55:45.257
+!MESSAGE The project description file (.project) for 'JNJTECH - processAutomator' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 4 567 2017-06-18 12:55:46.175
+!MESSAGE The project description file (.project) for 'JSON_to_TXT' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 12:55:50.673
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 12:55:50.674
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 12:55:52.107
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 12:55:52.108
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY com.google.gdt.eclipse.drive 4 0 2017-06-18 12:55:55.897
+!MESSAGE Exception querying project nature
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/JNJTECH - processAutomator' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:516)
+	at com.google.gdt.eclipse.drive.resources.PendingSaveManager$1.resourceChanged(PendingSaveManager.java:85)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:265)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:369)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:1885)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:767)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:318)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2017-06-18 12:55:55.897
+!MESSAGE Resource '/JNJTECH - processAutomator' is not open.
+
+!ENTRY com.google.gdt.eclipse.drive 1 0 2017-06-18 12:55:55.909
+!MESSAGE Forgetting unsaved files for about-to-be-deleted project JNJTECH - processAutomator
+
+!ENTRY com.google.gdt.eclipse.drive 4 0 2017-06-18 12:55:55.948
+!MESSAGE Exception querying project nature
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/JSON_to_TXT' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:516)
+	at com.google.gdt.eclipse.drive.resources.PendingSaveManager$1.resourceChanged(PendingSaveManager.java:85)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:265)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:369)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:1885)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:767)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:318)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2017-06-18 12:55:55.949
+!MESSAGE Resource '/JSON_to_TXT' is not open.
+
+!ENTRY com.google.gdt.eclipse.drive 1 0 2017-06-18 12:55:55.952
+!MESSAGE Forgetting unsaved files for about-to-be-deleted project JSON_to_TXT
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 12:59:29.265
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 12:59:29.273
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.equinox.ds 1 0 2017-06-18 12:59:32.862
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2017-06-18 13:00:18.611 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Arseniy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Arseniy/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-06-18 13:01:12.656
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.ds 1 0 2017-06-18 13:01:25.066
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2017-06-18 13:03:41.657
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:06:36.113
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:06:36.146
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:06:38.086
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:06:38.087
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:08:05.824
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:08:05.829
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:08:10.503
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:08:10.507
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY unknown 4 0 2017-06-18 13:08:14.414
+!MESSAGE Execution of 'open -R "/Users/Arseniy/Documents/WorkSpaces/Clients/JavaWebProject"' failed with return code: 1
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 13:08:24.888
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/JavaWebProject' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 13:08:24.890
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/JavaWebProject' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 13:08:24.891
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/JavaWebProject' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 13:08:24.892
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/JavaWebProject' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 13:08:43.980
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/JavaWebProject' is not open.
+
+!ENTRY org.eclipse.egit.core 4 0 2017-06-18 13:09:42.657
+!MESSAGE An exception occurred during push on URI https://github.com/ArseniyChern/JavaWebProject.git: An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:190)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Source ref refs/heads/master doesn't resolve to any object.
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:288)
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:192)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:655)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:1344)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-18 13:09:42.663
+!MESSAGE Can't connect to any repository: https://github.com/ArseniyChern/JavaWebProject.git (An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.)
+
+!ENTRY org.eclipse.egit.core 4 0 2017-06-18 13:10:20.594
+!MESSAGE An exception occurred during push on URI https://github.com/ArseniyChern/JavaWebProject.git: An internal Exception occurred during push: Source ref origin doesn't resolve to any object.
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:190)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Source ref origin doesn't resolve to any object.
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:288)
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:192)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:655)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:1344)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-18 13:10:20.624
+!MESSAGE Can't connect to any repository: https://github.com/ArseniyChern/JavaWebProject.git (An internal Exception occurred during push: Source ref origin doesn't resolve to any object.)
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:10:42.406
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 13:10:42.408
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY com.google.gdt.eclipse.managedapis 2 0 2017-06-18 13:13:30.855
+!MESSAGE Error closing input stream from remote directory Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Operation timed out (Read failed)
+!STACK 0
+javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Operation timed out (Read failed)
+	at sun.security.ssl.SSLSocketImpl.checkEOF(SSLSocketImpl.java:1541)
+	at sun.security.ssl.AppInputStream.available(AppInputStream.java:60)
+	at java.io.BufferedInputStream.available(BufferedInputStream.java:410)
+	at sun.net.www.MeteredStream.available(MeteredStream.java:170)
+	at sun.net.www.http.KeepAliveStream.close(KeepAliveStream.java:85)
+	at java.io.FilterInputStream.close(FilterInputStream.java:181)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.close(HttpURLConnection.java:3448)
+	at com.google.gdt.eclipse.managedapis.impl.RemoteApiDirectory$ApiDirectoryListingLinkReader.closeInputStream(RemoteApiDirectory.java:101)
+	at com.google.gdt.eclipse.managedapis.impl.RemoteApiDirectory$ApiDirectoryListingLinkReader.run(RemoteApiDirectory.java:94)
+	at com.google.gdt.eclipse.managedapis.impl.RemoteApiDirectory.run(RemoteApiDirectory.java:160)
+	at com.google.gdt.eclipse.managedapis.impl.ManagedApiChecker$ManagedApiCheckerJob.loadManagedApis(ManagedApiChecker.java:57)
+	at com.google.gdt.eclipse.managedapis.impl.ManagedApiChecker$ManagedApiCheckerJob.run(ManagedApiChecker.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.net.ssl.SSLException: java.net.SocketException: Operation timed out (Read failed)
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:208)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1906)
+	at sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1870)
+	at sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1815)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:116)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3375)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3368)
+	at com.google.gdt.eclipse.managedapis.impl.RemoteApiDirectory$ApiDirectoryListingLinkReader.run(RemoteApiDirectory.java:70)
+	... 4 more
+Caused by: java.net.SocketException: Operation timed out (Read failed)
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	... 12 more
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-18 15:23:52.696
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-18 15:23:52.700
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.variables 4 120 2017-06-18 15:25:23.290
+!MESSAGE Dynamic variable extension from bundle 'com.gwtplugins.gwt.eclipse.core' overrides existing extension variable 'unique_id' from bundle 'com.google.gwt.eclipse.core'
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:25:49.243
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.file' is invalid): com.gwtplugins.gwt.eclipse.core.actions.AddResourcesToClientBundleAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:26:00.634
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.file' is invalid): com.gwtplugins.gwt.eclipse.core.actions.AddResourcesToClientBundleAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:26:05.614
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.file' is invalid): com.gwtplugins.gwt.eclipse.core.actions.AddResourcesToClientBundleAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:26:19.814
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.file' is invalid): com.gwtplugins.gwt.eclipse.core.actions.AddResourcesToClientBundleAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:43:03.119
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:43:03.122
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:43:07.868
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:43:07.869
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:43:12.005
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:43:12.009
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-18 15:43:15.947
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-18 15:43:15.948
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:43:17.462
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:43:17.466
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 15:46:42.618
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 15:46:42.634
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:46:48.278
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:46:48.280
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:46:51.227
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:46:51.227
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:47:05.760
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:47:05.763
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:49:37.852
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:49:37.856
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:49:59.070
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:49:59.074
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-18 15:50:11.182
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-18 15:50:11.182
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-18 15:50:16.217
+!MESSAGE Error checking for warnings
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.checkVarious(MarkerLocationService.java:590)
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.addEditorHintMarkers(MarkerLocationService.java:241)
+	at org.eclipse.m2e.core.internal.markers.MarkerUtils.addEditorHintMarkers(MarkerUtils.java:66)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$4.call(ProjectRegistryManager.java:708)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$4.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacade(ProjectRegistryManager.java:699)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:398)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-18 15:50:16.229
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:542)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:498)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.EOFException: no more data available START_DOCUMENT seen <?xml version="1.0" encoding="UTF-8"?>... @1:38
+	at org.codehaus.plexus.util.xml.pull.MXParser.fillBuf(MXParser.java:3069)
+	at org.codehaus.plexus.util.xml.pull.MXParser.more(MXParser.java:3080)
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseProlog(MXParser.java:1561)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1436)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3849)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:86)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	... 24 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-06-18 15:50:16.230
+!MESSAGE Could not read pom.xml
+!STACK 0
+java.io.EOFException: no more data available START_DOCUMENT seen <?xml version="1.0" encoding="UTF-8"?>... @1:38
+	at org.codehaus.plexus.util.xml.pull.MXParser.fillBuf(MXParser.java:3069)
+	at org.codehaus.plexus.util.xml.pull.MXParser.more(MXParser.java:3080)
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseProlog(MXParser.java:1561)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1436)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3849)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:86)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:542)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:498)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-18 15:50:16.522
+!MESSAGE Failed to refresh projects from index changes
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Errors occurred while refreshing resources with the local file system.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:977)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:960)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1594)
+	at org.eclipse.egit.ui.Activator$ResourceRefreshJob$1.run(Activator.java:519)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.egit.ui.Activator$ResourceRefreshJob.run(Activator.java:504)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: The project description file (.project) for 'JavaWebProject' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 271 2017-06-18 15:50:16.523
+!MESSAGE Errors occurred while refreshing resources with the local file system.
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-06-18 15:50:16.523
+!MESSAGE The project description file (.project) for 'JavaWebProject' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:51:31.671
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.file' is invalid): com.gwtplugins.gwt.eclipse.core.actions.AddResourcesToClientBundleAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:51:36.058
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.file' is invalid): com.gwtplugins.gwt.eclipse.core.actions.AddResourcesToClientBundleAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:51:38.926
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:51:38.927
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 15:51:43.988
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Web' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 15:51:43.988
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Web' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 15:51:43.989
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Web' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 15:51:43.989
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Web' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 15:51:43.989
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Web' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 15:51:43.990
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Web' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 15:51:43.990
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Web' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 15:51:43.990
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Web' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 15:51:43.991
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Web' does not exist.
+
+!ENTRY org.eclipse.core.resources 2 2 2017-06-18 15:51:44.288
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-06-18 15:51:44.288
+!MESSAGE The project description file (.project) for 'JavaWebProject' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:53:15.121
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:53:15.122
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:53:18.036
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 15:53:18.037
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 16:04:46.171
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 16:04:46.173
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 16:08:05.635
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 16:08:05.643
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.064
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.070
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.071
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.074
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.074
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.075
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.076
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.076
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.077
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.077
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.078
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2017-06-18 16:08:09.079
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/Project' does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-18 16:08:10.057
+!MESSAGE Launch configuration Main (2) references non-existing project Project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Main (2) references non-existing project Project.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-06-18 16:08:10.057
+!MESSAGE Launch configuration Main (2) references non-existing project Project.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-18 16:08:10.067
+!MESSAGE Launch configuration Main (2) references non-existing project Project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Main (2) references non-existing project Project.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-06-18 16:08:10.068
+!MESSAGE Launch configuration Main (2) references non-existing project Project.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-18 16:08:10.077
+!MESSAGE Launch configuration Main (2) references non-existing project Project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Main (2) references non-existing project Project.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2161)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-06-18 16:08:10.077
+!MESSAGE Launch configuration Main (2) references non-existing project Project.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-18 16:08:10.080
+!MESSAGE Launch configuration runscript (1) references non-existing project Project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration runscript (1) references non-existing project Project.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-06-18 16:08:10.082
+!MESSAGE Launch configuration runscript (1) references non-existing project Project.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-18 16:08:10.084
+!MESSAGE Launch configuration runscript (1) references non-existing project Project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration runscript (1) references non-existing project Project.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-06-18 16:08:10.085
+!MESSAGE Launch configuration runscript (1) references non-existing project Project.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-18 16:08:10.091
+!MESSAGE Launch configuration runscript (1) references non-existing project Project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration runscript (1) references non-existing project Project.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2161)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-06-18 16:08:10.091
+!MESSAGE Launch configuration runscript (1) references non-existing project Project.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 16:10:24.638
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 16:10:24.643
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 16:10:25.772
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 16:10:25.779
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 16:16:37.756
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 16:16:37.762
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:08:33.373
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:08:33.379
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:08:56.579
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:08:56.583
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:09:18.875
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:09:18.877
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:10:25.597
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:10:25.598
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:11:57.697
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:11:57.703
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:12:17.771
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:12:17.790
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:14:55.640
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:14:55.644
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:14:55.669
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:14:55.944
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:14:55.947
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:15:00.732
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:15:00.733
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2017-06-18 23:15:06.074
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:16:21.795
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.file' is invalid): com.gwtplugins.gwt.eclipse.core.actions.AddResourcesToClientBundleAction
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:26:14.960
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:26:14.967
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:26:15.006
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:26:17.827
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-18 23:26:17.867
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:27:19.918
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.popupMenu.project.gwtSettings
+
+!ENTRY org.eclipse.ui 4 4 2017-06-18 23:27:19.920
+!MESSAGE Plug-in 'com.gwtplugins.gwt.eclipse.core' contributed an invalid Menu Extension (Path: 'com.gwtplugins.gdt.eclipse.suite.popupMenu.project' is invalid): com.gwtplugins.gwt.eclipse.core.actions.GWTCompileProjectAction

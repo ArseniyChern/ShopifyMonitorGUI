@@ -1,0 +1,322 @@
+package Group.Atrifact;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+import com.bazaarvoice.jolt.Chainr;
+import com.bazaarvoice.jolt.JsonUtils;
+
+public class App {
+	static JSONParser parser = new JSONParser();
+
+	// Components for the transformation
+	static List<Object> specs;
+	static Chainr chainr;
+	static Object inputJSON;
+	static Object transformedOutput;
+
+	static final String CHAINR_LOCATION = "/Users/Arseniy/Documents/WorkSpaces/Clients/"
+			+ "Thomas Wiech - JSON transformation/src/main/java/Resources/chainr.json";
+	static final String INPUT_LOCATION = "/Users/Arseniy/Documents/WorkSpaces/Clients/"
+			+ "Thomas Wiech - JSON transformation/src/main/java/Resources/input.json";
+	static final String OUTPUT_LOCATION = "/Users/Arseniy/Documents/WorkSpaces/Clients/"
+			+ "Thomas Wiech - JSON transformation/src/main/java/Resources/output";
+
+	// Components for the output of the Enum types
+	static JSONObject finalOutputObject;
+	static Object inputJsonFile;
+	static JSONArray inputJsonArray;
+	static JSONObject currentObject;
+	static String currentValueName;
+	static JSONArray currentSelectedValue;
+
+	// Components for the transformation of the other data types
+	static JSONArray attributeRelation;
+	static JSONArray inputFile;
+	static JSONArray output;
+	static JSONArray groupDefaultOutput;
+	static JSONObject groupDefault;
+
+	static JSONObject nonEnumObject;
+	static JSONArray featuresList;
+	static JSONObject primitiveDataType;
+	static JSONObject Iterator;
+	static String iteratorType;
+	static String key;
+
+	static JSONObject complexArray;
+	static JSONObject finalOutput;
+	static JSONObject complexArrayWrapper;
+
+	// for the ouput of the final JSON string
+	static FileWriter file;
+
+	//Some placeholders
+	static ArrayList<String> enums = new ArrayList<String>();
+	static ArrayList<String> structs = new ArrayList<String>();
+	static ArrayList<String> references = new ArrayList<String>();
+
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) throws Exception {
+
+		// Performing the ENUMERATION transformation:
+
+		// reading the specs for JOLT transformation
+		specs = JsonUtils.classpathToList("/Resources/chainr.json");
+		chainr = Chainr.fromSpec(specs);
+
+		// getting the input
+		inputJSON = JsonUtils.classpathToObject("/Resources/input.json");
+
+		// performing the transformation
+		transformedOutput = chainr.transform(inputJSON);
+
+		// recieving the result of the transformation
+		inputJsonFile = parser.parse(JsonUtils.toJsonString(transformedOutput));
+
+		// initializing the object that will be outputted
+		finalOutputObject = new JSONObject();
+
+		// the array of the input Json file
+		inputJsonArray = (JSONArray) inputJsonFile;
+
+		for (int i = 0; i < inputJsonArray.size(); i++) {
+			// iterating over currentObject
+			currentObject = (JSONObject) inputJsonArray.get(i);
+
+			// getting the name of the current object
+			currentValueName = (String) currentObject.get("Name");
+
+			// getting the value array of the current object
+			currentSelectedValue = (JSONArray) currentObject.get("Values");
+
+			// outputting it all to the final output
+			finalOutputObject.put("enum:" + currentValueName, currentSelectedValue);
+
+		}
+		
+		//Performing transformation details
+		String finalENUM = finalOutputObject.toJSONString();
+		String[] temp1 = finalENUM.split(":");
+		finalENUM = "";
+		for(int i = 0; i < temp1.length;i++) {
+			finalENUM += temp1[i];
+		}
+		finalENUM = finalENUM.replaceAll("enum", "enum:");
+		finalENUM = finalENUM.replace("[", "{").replace("]", "}");
+
+		enums.add(finalENUM);
+		finalOutputObject.clear();
+		
+		
+		// Performing the transformation of the other data types
+
+		// the array that will then be inputted for the non-primitive data types
+		attributeRelation = new JSONArray();
+		attributeRelation.add("Mandatory: false = 0");
+		attributeRelation.add("Mandatory: true = 1");
+		attributeRelation.add("Multiple: false = 1");
+		attributeRelation.add("Multiple: true = N");
+
+		// getting the array for the input file
+		inputFile = (JSONArray) parser.parse(new FileReader(INPUT_LOCATION));
+
+		// for the tranformation, to organize it into it's given objects
+		groupDefault = new JSONObject();
+		output = new JSONArray();
+		groupDefaultOutput = new JSONArray();
+
+		// performing case 2 & 3 transformation
+		for (int i = inputJsonArray.size(); i < inputFile.size(); i++) {
+
+			nonEnumObject = (JSONObject) inputFile.get(i);
+			featuresList = (JSONArray) nonEnumObject.get("features");
+
+			primitiveDataType = new JSONObject();
+
+			for (int i1 = 0; i1 < featuresList.size(); i1++) {
+
+				Iterator = (JSONObject) featuresList.get(i1);
+
+				iteratorType = ((String) Iterator.get("type")).toLowerCase();
+
+				if (iteratorType.equals("integer") || iteratorType.equals("string") || iteratorType.equals("date_time")
+						|| iteratorType.equals("richtext") || iteratorType.startsWith("de.iteratec")) {
+
+					key = "";
+
+					if (Iterator.get("mandatory").equals(true))
+						key += "[1..";
+					else
+						key += "[0..";
+
+					if (Iterator.get("multiple").equals(false))
+						key += "1]";
+					else
+						key += "N]";
+
+					// changing the name of the type
+					switch (iteratorType) {
+					case "integer":
+						iteratorType = "INT";
+						break;
+					case "string":
+						iteratorType = "STRING";
+						break;
+					case "richtext":
+						iteratorType = "RICHTEXT";
+						break;
+					case "date_time":
+						iteratorType = "DATETIME";
+						break;
+					case "boolean":
+						iteratorType = "BOOLEAN";
+						break;
+					case "date":
+						iteratorType = "DATE";
+						break;
+					case "double":
+						iteratorType = "NUMERIC";
+						break;
+					}
+
+					if (iteratorType.startsWith("de.iteratec")) {
+						iteratorType = (String) Iterator.get("persistentName");
+						primitiveDataType.put(iteratorType + key, iteratorType.toUpperCase()+"-");
+
+					} else {
+						primitiveDataType.put((String) Iterator.get("persistentName") + key, iteratorType+"-");
+					}
+
+				} else {
+					key = "";
+
+					if (Iterator.get("mandatory").equals(true))
+						key += "[1..";
+					else
+						key += "[0..";
+
+					if (Iterator.get("multiple").equals(false))
+						key += "1]";
+					else
+						key += "N]";
+
+					complexArray = new JSONObject();
+
+					String persistentName = (String) Iterator.get("persistentName");
+					String type = (String) Iterator.get("type");
+
+					if (persistentName.toLowerCase().contains(type.toLowerCase())) {
+						complexArray.put("", nonEnumObject.get("persistentName") + ".default." + persistentName + key
+								+ "-" + type + ".default." + nonEnumObject.get("persistentName") + "s" + key + "}");
+						complexArrayWrapper = new JSONObject();
+						complexArrayWrapper.put("reference", complexArray);
+						output.add(complexArrayWrapper);
+					} else if (persistentName.toLowerCase().equals("children")
+							|| persistentName.toLowerCase().equals("basecomponent")
+							|| persistentName.toLowerCase().equals("predecessors")) {
+
+						i1++;
+						JSONObject tempIterator = (JSONObject) featuresList.get(i1);
+
+						String tempKey = "";
+
+						if (tempIterator.get("mandatory").equals(true))
+							tempKey += "[1..";
+						else
+							tempKey += "[0..";
+
+						if (tempIterator.get("multiple").equals(false)) {
+							tempKey += "1]";
+						} else
+							tempKey += "N]";
+
+						complexArray.put("",
+								nonEnumObject.get("persistentName") + ".default." + persistentName + key + "-"
+										+ nonEnumObject.get("persistentName") + ".default."
+										+ tempIterator.get("persistentName") + tempKey);
+
+						complexArrayWrapper = new JSONObject();
+						complexArrayWrapper.put("reference", complexArray);
+						output.add(complexArrayWrapper);
+
+						complexArray = new JSONObject();
+						complexArray.put("",
+								nonEnumObject.get("persistentName") + ".default." + tempIterator.get("persistentName")
+										+ tempKey + "-" + nonEnumObject.get("persistentName") + ".default."
+										+ persistentName + key);
+						complexArrayWrapper = new JSONObject();
+						complexArrayWrapper.put("reference", complexArray);
+
+						references.add(complexArrayWrapper.toJSONString());
+						output.add(complexArrayWrapper);
+
+					}
+
+				}
+
+			}
+
+			JSONObject y = (JSONObject) parser.parse(primitiveDataType.toJSONString());
+
+			groupDefault.put("group:default", y);
+			finalOutput = new JSONObject();
+
+			finalOutput.put("type:" + nonEnumObject.get("persistentName"), groupDefault);
+			structs.add(finalOutput.toJSONString());
+
+			output.add(finalOutput);
+		}
+		// the final object to output
+		output = new JSONArray();
+
+		//performing detailed transformation
+		String strut = "";
+		for (int i = 0; i < structs.size(); i++) {
+			strut += structs.get(i).substring(1, structs.get(i).length() - 1).replace(",", "")+"\n";
+
+		}
+		String ref = "";
+		for (int i = 0; i < references.size(); i++) {
+			ref += references.get(i).substring(1, references.get(i).length() - 1);
+
+		}
+		ref = ref.replaceAll("..N", "..2");
+		ref = ref.replaceAll(":", "");
+
+		finalOutputObject.put("", output);
+
+		// outputting the final output to the output file
+		try {
+			File t = new File(OUTPUT_LOCATION);
+			t.createNewFile();
+			file = new FileWriter(t);
+			
+			//performing detailed transformation
+			strut = strut.replace(":{",":{\n");
+			String toOut = "";
+			strut = strut.replaceAll("-", "\n");
+			toOut = strut + "\n"+ref;
+			toOut.replaceAll("," , "");
+			finalENUM = finalENUM.substring(1, finalENUM.length() - 1).replaceAll("},", "}\n");
+			toOut = finalENUM + "\n"+ toOut;
+			toOut = toOut.replaceAll("\"", "");
+			file.write(toOut);
+
+			file.flush();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,375 @@
+
+
+import java.awt.Color;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+import com.aspose.slides.ChartType;
+import com.aspose.slides.FillType;
+import com.aspose.slides.IAutoShape;
+import com.aspose.slides.IChart;
+import com.aspose.slides.IChartDataPoint;
+import com.aspose.slides.IChartDataWorkbook;
+import com.aspose.slides.IChartSeries;
+import com.aspose.slides.IChartSeriesCollection;
+import com.aspose.slides.IColumn;
+import com.aspose.slides.IDataLabel;
+import com.aspose.slides.ILayoutSlide;
+import com.aspose.slides.IParagraph;
+import com.aspose.slides.ISlide;
+import com.aspose.slides.ISlideCollection;
+import com.aspose.slides.ITable;
+import com.aspose.slides.ITextFrame;
+import com.aspose.slides.ITrendline;
+import com.aspose.slides.LayoutSlide;
+import com.aspose.slides.MarkerStyleType;
+import com.aspose.slides.NullableBool;
+import com.aspose.slides.Paragraph;
+import com.aspose.slides.Presentation;
+import com.aspose.slides.SaveFormat;
+import com.aspose.slides.ShapeType;
+import com.aspose.slides.TextAlignment;
+import com.aspose.slides.TextAnchorType;
+import com.aspose.slides.TrendlineType;
+
+public class CreateAPresentation {
+	static JSONParser parser = new JSONParser();
+
+	static JSONObject mainJsonObject;
+
+	static Presentation pres;
+	static String dataDir = "/Users/Arseniy/Desktop/";
+	static ArrayList<ArrayList<String>> noOfPosts;
+	static ArrayList<String> noOfPostsRows;
+	static JSONArray noOfPostsJSONArray;
+
+	// Slide 1-
+
+	static void setOverallSummary(ArrayList<String> Summary) {
+
+		ISlide sld = (ISlide) pres.getSlides().get_Item(0);
+
+		// Add an AutoShape of Rectangle type
+		IAutoShape ashp = sld.getShapes().addAutoShape(ShapeType.Rectangle, 10, 10, 500, 50);
+
+		// Add ITextFrame to the Rectangle
+		ashp.addTextFrame("EXECUTIVE SUMMARY");
+		ashp.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(40);
+
+		// Change the text color to Black (which is White by default)
+		ashp.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().getFillFormat()
+				.setFillType(FillType.Solid);
+		ashp.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().getFillFormat()
+				.getSolidFillColor().setColor(java.awt.Color.BLACK);
+
+		// Change the line color of the rectangle to White
+		ashp.getShapeStyle().getLineColor().setColor(java.awt.Color.WHITE);
+
+		// Remove any fill formatting in the shape
+
+		ashp.getFillFormat().setFillType(FillType.NoFill);
+
+		IAutoShape ashp1 = sld.getShapes().addAutoShape(ShapeType.Rectangle, 10, 100, 300, 400);
+
+		// Add ITextFrame to the Rectangle
+		String sum = "";
+		ashp1.addTextFrame("");
+		Paragraph p = new Paragraph();
+		p.setText("Summary");
+		p.getPortions().get_Item(0).getPortionFormat().setFontHeight(20);
+		p.getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True);
+		ashp1.getTextFrame().getParagraphs().add(p);
+
+		p = new Paragraph();
+		p.setText("");
+		ashp1.getTextFrame().getParagraphs().add(p);
+
+		p = new Paragraph();
+		p.setText("");
+		ashp1.getTextFrame().getParagraphs().add(p);
+		p = new Paragraph();
+		p.setText("");
+		ashp1.getTextFrame().getParagraphs().add(p);
+
+		for (int i = 0; i < Summary.size(); i++) {
+			p = new Paragraph();
+			p.setText(" ·  " + Summary.get(i));
+			ashp1.getTextFrame().getParagraphs().add(p);
+
+			p = new Paragraph();
+			p.setText("");
+			ashp1.getTextFrame().getParagraphs().add(p);
+
+		}
+
+		ashp1.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(10);
+		ashp1.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
+		ashp1.getTextFrame().getTextFrameFormat().setAnchoringType(TextAnchorType.Top);
+		// Change the text color to Black (which is White by default)
+
+	}
+
+	static void setKeyMetricks(ArrayList<String> Metricks) {
+		ISlide sld = (ISlide) pres.getSlides().get_Item(0);
+
+		double[] dblCols = { 100, 75, 75, 75 };
+		double[] dblRows = { 20, 20 };
+
+		// Add table shape to slide
+		ITable tbl = sld.getShapes().addTable(350, 75, dblCols, dblRows);
+
+		tbl.getRows().get_Item(0).get_Item(0).getTextFrame().setText("KEY METRICS");
+		tbl.getRows().get_Item(0).get_Item(1).getTextFrame().setText("POSITIVE");
+		tbl.getRows().get_Item(0).get_Item(2).getTextFrame().setText("NUETRAL");
+		tbl.getRows().get_Item(0).get_Item(3).getTextFrame().setText("NEGATIVE");
+
+		for (int i = 0; i < Metricks.size(); i++) {
+			tbl.getRows().get_Item(1).get_Item(i).getTextFrame().setText(Metricks.get(i));
+		}
+
+		tbl.getRows().get_Item(0).get_Item(1).getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0)
+				.getPortionFormat().setFontHeight(12);
+		tbl.getRows().get_Item(0).get_Item(2).getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0)
+				.getPortionFormat().setFontHeight(12);
+		tbl.getRows().get_Item(0).get_Item(3).getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0)
+				.getPortionFormat().setFontHeight(11);
+
+	}
+
+	static void setNoOfPosts(ArrayList<ArrayList<String>> Posts) {
+
+		// Get the first slide
+		ISlide sld = (ISlide) pres.getSlides().get_Item(0);
+
+		double[] dblCols = { 200, 50, 85 };
+		double[] dblRows = { 5 };
+
+		// Add table shape to slide
+		ITable tbl = sld.getShapes().addTable(350, 200, dblCols, dblRows);
+
+		for (int i = 0; i < Posts.size() - 1; i++) {
+			tbl.getRows().addClone(tbl.getRows().get_Item(0), false);
+		}
+		tbl.getRows().get_Item(0).get_Item(0).getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0)
+				.getPortionFormat().setFontHeight(12);
+
+		// Merge cells 1 & 2 of row 1
+		tbl.mergeCells(tbl.getRows().get_Item(0).get_Item(1), tbl.getRows().get_Item(0).get_Item(2), false);
+
+		// Add text to the merged cell
+		tbl.getRows().get_Item(0).get_Item(1).getTextFrame().getParagraphs().get_Item(0).getParagraphFormat()
+				.setAlignment(TextAlignment.Center);
+		for (int i = 0; i < Posts.size(); i++) {
+			for (int i1 = 0; i1 < Posts.get(i).size(); i1++) {
+
+				tbl.getRows().get_Item(i).get_Item(i1).getTextFrame().setText(Posts.get(i).get(i1));
+				tbl.getRows().get_Item(i).get_Item(i1).getTextFrame().getParagraphs().get_Item(0).getPortions()
+						.get_Item(0).getPortionFormat().setFontHeight(12);
+			}
+		}
+
+	}
+
+	// Slide 2-
+
+	static void setLineChart(ArrayList<ArrayList<String>> input) {
+		ISlide slide = pres.getSlides().get_Item(0);
+		 
+		//Creating the default chart
+		IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
+		 
+		//Getting the default chart data worksheet index
+		int defaultWorksheetIndex = 0;
+		 
+		//Getting the chart data worksheet
+		IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
+		 
+		//Delete demo series
+		chart.getChartData().getSeries().clear();
+		 
+		//Add new series
+		chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
+		chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
+		 
+		//Take first chart series
+		IChartSeries series = chart.getChartData().getSeries().get_Item(0);
+		 
+		//Add new point (1:3) there.
+		series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
+		 
+		//Add new point (2:10)
+		series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
+		 
+		//Edit the type of series
+		series.setType (ChartType.ScatterWithStraightLinesAndMarkers);
+		 
+		//Changing the chart series marker
+		series.getMarker().setSize(10);
+		series.getMarker().setSymbol(MarkerStyleType.Star);
+		 
+		//Take second chart series
+		series = chart.getChartData().getSeries().get_Item(1);
+		 
+		//Add new point (5:2) there.
+		series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
+		 
+		//Add new point (3:1)
+		series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
+		 
+		//Add new point (2:2)
+		series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
+		 
+		//Add new point (5:1)
+		series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
+		 
+		//Changing the chart series marker
+		series.getMarker().setSize(10);
+		series.getMarker().setSymbol(MarkerStyleType.Circle);
+
+
+	}
+
+	static void setTable(ArrayList<ArrayList<String>> input) {
+		
+		// Get the first slide
+				ISlide sld = (ISlide) pres.getSlides().get_Item(0);
+
+				double[] dblCols = { 200, 50, 85 };
+				double[] dblRows = { 5 };
+
+				// Add table shape to slide
+				ITable tbl = sld.getShapes().addTable(350, 200, dblCols, dblRows);
+
+				for (int i = 0; i <  input.size() - 1; i++) {
+					tbl.getRows().addClone(tbl.getRows().get_Item(0), false);
+				}
+				tbl.getRows().get_Item(0).get_Item(0).getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0)
+						.getPortionFormat().setFontHeight(12);
+
+				// Merge cells 1 & 2 of row 1
+				tbl.mergeCells(tbl.getRows().get_Item(0).get_Item(1), tbl.getRows().get_Item(0).get_Item(2), false);
+
+				// Add text to the merged cell
+				tbl.getRows().get_Item(0).get_Item(1).getTextFrame().getParagraphs().get_Item(0).getParagraphFormat()
+						.setAlignment(TextAlignment.Center);
+				for (int i = 0; i <  input.size(); i++) {
+					for (int i1 = 0; i1 <  input.get(i).size(); i1++) {
+
+						tbl.getRows().get_Item(i).get_Item(i1).getTextFrame().setText( input.get(i).get(i1));
+						tbl.getRows().get_Item(i).get_Item(i1).getTextFrame().getParagraphs().get_Item(0).getPortions()
+								.get_Item(0).getPortionFormat().setFontHeight(12);
+					}
+				}
+
+			}
+		
+	
+	public static final void main(String[] args) throws FileNotFoundException, IOException, ParseException {
+
+		mainJsonObject = (JSONObject) parser.parse(new FileReader("/Users/Arseniy/Desktop/sampleinput.json"));
+
+		pres = new Presentation();
+		
+		// ------------------ Set number of posts & data
+		noOfPosts = new ArrayList<ArrayList<String>>();
+		noOfPostsRows = new ArrayList<String>();
+
+		noOfPostsJSONArray = (JSONArray) mainJsonObject.get("no of posts/comments by media");
+
+		noOfPostsRows.add("NO.OF POST/COMMENT BY MEDIA");
+		noOfPostsRows.add((String) noOfPostsJSONArray.get(0));
+
+		noOfPosts.add(noOfPostsRows);
+		noOfPostsRows = new ArrayList<String>();
+
+		for (int i = 1; i < noOfPostsJSONArray.size(); i++) {
+			setPostInfo(i);
+		}
+
+		setNoOfPosts(noOfPosts);
+		// ------------------ Set key metrics
+		JSONArray keyMetrics = (JSONArray) mainJsonObject.get("key_metrics");
+		ArrayList<String> metrics = new ArrayList<String>();
+
+		metrics.add("# of posts + comments");
+		for (int i = 0; i < keyMetrics.size(); i++) {
+			metrics.add("" + keyMetrics.get(i));
+		}
+
+		setKeyMetricks(metrics);
+		// ------------------ Set Overall Summary
+
+		JSONArray summary = (JSONArray) mainJsonObject.get("summary");
+		ArrayList<String> Summary = new ArrayList<String>();
+
+		for (int i = 0; i < summary.size(); i++) {
+			Summary.add((String) summary.get(i));
+		}
+
+		setOverallSummary(Summary);
+
+		/**
+		 * 
+		 * SLIDE 2
+		 * 
+		 **/
+		pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
+
+
+		// ------------------ Create the chart
+		ArrayList<ArrayList<String>> graphData = new ArrayList<ArrayList<String>>();
+		JSONArray jsonData = (JSONArray) mainJsonObject.get("data_1");
+
+		for (int i = 0; i < jsonData.size(); i++) {
+			ArrayList<String> temp = new ArrayList<String>();
+			JSONObject iterator = (JSONObject) jsonData.get(i);
+			
+			temp.add((String) iterator.get("Date"));
+			
+			temp.add("" + iterator.get("Positive"));
+			temp.add("" + iterator.get("Netural"));
+			temp.add("" + iterator.get("Negative"));
+			
+			graphData.add(temp);
+		}
+
+		setLineChart(graphData);
+		// ------------------ Create the table
+		ArrayList<ArrayList<String>> tableData = new ArrayList<ArrayList<String>>();
+		JSONArray data2 = (JSONArray)mainJsonObject.get("data_2");
+		
+		for(int i = 0; i < data2.size();i++) {
+			ArrayList<String> temp = new ArrayList<String>();
+			JSONArray tempJSONArray = (JSONArray) data2.get(i);
+			
+			temp.add(""+tempJSONArray.get(0));
+			temp.add(""+tempJSONArray.get(1));
+			temp.add(""+tempJSONArray.get(2));
+			System.out.println(temp);
+			
+			tableData.add(temp);
+		}
+			
+
+		pres.save(dataDir + "HelloWorld.pptx", SaveFormat.Pptx);
+		System.out.println("Finished");
+	}
+
+	static void setPostInfo(int toGet) {
+		JSONArray currentArray = (JSONArray) noOfPostsJSONArray.get(toGet);
+
+		for (int i1 = 0; i1 < currentArray.size(); i1++) {
+			noOfPostsRows.add("" + currentArray.get(i1));
+		}
+		noOfPosts.add(noOfPostsRows);
+		noOfPostsRows = new ArrayList<String>();
+	}
+}

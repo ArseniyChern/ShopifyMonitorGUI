@@ -1,0 +1,16 @@
+INDEX VERSION 1.130+/Users/Arseniy/Documents/WorkSpaces/Clients/.metadata/.plugins/org.eclipse.jdt.core
+4068151283.index
+1333214944.index
+941005215.index
+4072720451.index
+777186417.index
+2085238884.index
+1752999004.index
+1573667624.index
+3016258985.index
+2159776336.index
+2416437578.index
+3637484284.index
+2489143964.index
+2337115658.index
+3171456287.index

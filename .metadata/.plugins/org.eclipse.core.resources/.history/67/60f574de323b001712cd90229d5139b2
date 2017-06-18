@@ -1,0 +1,96 @@
+package processAutomator;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.Scanner;
+
+public class Traceroute {
+	static BufferedWriter bw;
+	public static void printTraceRoute() {
+		System.out.println("called method");
+		try {
+			System.out.println("trying");
+			Process proc = Runtime.getRuntime().exec("traceroute 8.8.8.8");
+			System.out.println("Got the process");
+			BufferedInputStream stream = new BufferedInputStream(proc.getInputStream());
+			System.out.println("created the stream");
+			int data = 0;
+			System.out.println("created data");
+			
+			System.out.println(stream.read());
+			while ((data = stream.read()) > 0) {
+				System.out.print((char) data);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	public static void main(String[] args) {
+		
+
+		String pass = "people";
+
+		Process p = null;
+
+		String output = executeCommand("networksetup -setairportpower airport off");
+		System.out.println(output);
+		output = executeCommand("networksetup -setairportpower airport on");
+		System.out.println(output);
+
+		String Output = "";
+		BufferedReader reader = null;
+		try {
+			p = Runtime.getRuntime().exec("sudo killall -HUP mDNSResponder");
+			bw = new BufferedWriter(new OutputStreamWriter(p.getOutputStream()));
+			bw.write(pass);
+			bw.flush();
+
+			bw = new BufferedWriter(new OutputStreamWriter(p.getOutputStream()));
+
+			reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+
+			String line = "";
+			while ((line = reader.readLine()) != null) {
+				System.out.println(line);
+			}
+
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		System.out.println("Hi");
+		printTraceRoute();
+	}
+	private static String convertStreamToString(InputStream inputStream) throws IOException {
+		while (inputStream.available() != 0) {
+			System.out.println(inputStream.read());
+		}
+		return null;
+	}
+
+	private static String executeCommand(String command) {
+		StringBuffer output = new StringBuffer();
+
+		Process p;
+		try {
+			p = Runtime.getRuntime().exec(command);
+			p.waitFor();
+			BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+
+			String line = "";
+			while ((line = reader.readLine()) != null) {
+				output.append(line + "\n");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return output.toString();
+
+	}
+}
