@@ -1,0 +1,1 @@
+/Users/Arseniy/shopify-monitor/config.json
